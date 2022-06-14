@@ -26,13 +26,6 @@ body {
 * {
     box-sizing: border-box;
   }
-.header {
-    border: 1px solid red;
-}
-.main {
-    border: 1px solid orange;
-}
-
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +45,12 @@ body {
     letter-spacing: 5px;
     color: #829985;
   }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -68,9 +67,7 @@ body {
       width: 100%;
     }
   }
-.footer {
-    border: 1px solid blue;
-}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -82,9 +79,12 @@ body {
     line-height: 50px;
     transition: .3s;
     text-decoration: none;
-    color: #a03bf2;
+    color: #91812e;
     transition: color 0.5s;
   }
+.skills-items {
+  list-style: none; 
+}
   
 .nav-link:hover {
     color: #185bc8;
@@ -92,6 +92,9 @@ body {
 
 .section-contacts {
     list-style: none;
+}
+.contacts-github{
+  text-decoration: none;
 }
 .footer-list {
   display: flex;
